@@ -17,8 +17,8 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family:"Roboto Condensed" "Arial", sans-serif;
-  font-weight: 400px;
+  font-family:"Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   background-color: #222;
@@ -30,11 +30,9 @@ img {
   height: auto;
 }
 *:focus{
-  outline: 2px dashed #1E90FF;7
+  outline: 2px dashed #1E90FF;
   outline-offset: 2px;
 }
-
-
 /* CONTAINER */
 .container {
   width: 100%;
@@ -85,7 +83,7 @@ img {
   width: 350px;
   margin-top: 0;
   margin-bottom: 24px;
-  font-style: 24px;
+  font-size: 24px;
   font-family: "Bebas Neue", "Roboto Condensed", "Arial", sans-serif;
   font-weight: 400;
   line-height: normal;
